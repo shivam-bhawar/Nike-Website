@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Login </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<style>
+#body
+{
+	
+	text-align:center;
+	background-image: url('background.jpg');
+}
+#head
+{
+	font-family: Bebas Neue; 
+	color:gray;
+	font-size:25px;
+	margin-top:50px;
+	margin-bottom:0px;
+}
+#with
+{
+	font-family: Bebas Neue; 
+	color:lightgray;
+	font-size:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#nike
+{
+	font-family: Permanent Marker; 
+	color:black;
+	font-size:20px;
+	margin:10px;
+}
+#input
+{
+	width:300px;
+	height:30px;
+	border:1px solid lightgray;
+	border-radius:2.5px;
+}
+#lbl
+	{
+	font-size:13px;
+	font-family:ubuntu;
+	color:gray;
+	text-align:left;
+	}
+#links
+	{
+		font-size:13px ;
+		text-decoration: none;
+		color:gray;
+		font-family:nunito;
+	}
+#login
+	{
+	background-color:black;
+	width:300px;
+	height:30px;
+	border:1px solid black;
+	border-radius:2.5px;
+	}
+#div
+{
+	border: 1px solid white;
+	border-radius:50px;
+	background-color:white;
+	
+	margin-top:50px;
+	margin-right:400px;
+	margin-bottom:50px;
+	margin-left:400px;
+	
+	padding-top:0px;
+	padding-right:25px;
+	padding-bottom:25px;
+	padding-left:25px;
+	
+	box-shadow:10px 10px lightgray;
+}
+#animation
+{
+	animation-delay: 0s;
+	animation-name: products;
+	animation-duration: 1s;
+}
+@keyframes products 
+{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+	</head>
+	<body id="body">
+	<div id="animation">
+	<div id="div">
+		<p id="head"> Take a step <br> towards comfort</p>
+		<p id="with"> with </p>
+		<h1 id="nike"> NIKE </h1>
+		<input type="email" name="email" placeholder="Email address" id="input"> <br>
+		<a href="forgot.html" style="color:lightgray" id="links"> Forgotten mail address? </a> <br> <br>
+		<input type="password" name="email" placeholder="password" id="input"> <br>
+		<a href="forgot.html" style="color:lightgray" id="links"> Forgotten password? </a> <br> <br>
+		<input type="checkbox" id="mail"> <label for="checkbox" id="lbl"> Keep me signed in </label> <br>
+		<p id="links">By logging in, you agree to Nike's <a href="privacypolicy.html" style="color:black" id="links">Privacy Policy</a> </p>
+		<p id="links"> and <a href="terms.html" style="color:black" id="links">Terms of use</a> </p>
+		<button type="submit" id="login"> <a href="index.html" style="font-family:Bebas Neue ; color:white ; font-size:20px" id="links"> Log In </a> </button> <br> <br> <br>
+		<label for="create" id="lbl">Don't have an account? <a href="signup.html" style="color:black" id="links"> Signup </a> </label><br>
+	</div>
+	</div>
+	</body>
+</html>
